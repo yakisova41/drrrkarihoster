@@ -80,6 +80,8 @@ def newroomname(cmd):
             cmd.print('newRoomname >> %s'%(roomname))
     
     cmd.run(newname)
+    
+    return cmd
 
 def ban(cmd):
     userid = cmd.setarg(1,'ban userid','Please enter ban userid!')
